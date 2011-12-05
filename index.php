@@ -17,7 +17,7 @@
         m:     undefined,
         price: undefined,
 	    getPrice: function() {
-	        return "Tim " + this.h.val() + " Min " + this.m.val();
+	        return (this.h.val()*20) + parseInt((this.m.val()/3));
 	    },
         updatePrice: function() {
             console.log(this);

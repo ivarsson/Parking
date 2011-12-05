@@ -15,7 +15,7 @@
 	<input type="range" name="timmar" id="timmar" value="0" min="0" max="23"  />
 	<br />
 	<label for="slider">Minuter: </label>
-	<input type="range" name="minuter" id="slider" value="0" min="0" max="59"  />
+	<input type="range" name="minuter" id="minuter" value="0" min="0" max="60"  />
 	<br />
 	<br />
 	<label for="slider">Att betala: </label>
