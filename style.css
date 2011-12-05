@@ -1,0 +1,61 @@
+/*******************
+
+Grupp 12 2011
+TIG061 - Projekt 2
+
+*******************/
+
+.button {
+	height: 200px;
+	width: 350px;
+	background:#ffffff;
+	float:left;
+	margin: 20px;
+	border-radius:15px;
+	border: 1px solid black;
+	
+	background-image: linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
+	background-image: -o-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
+	background-image: -moz-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
+	background-image: -webkit-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
+	background-image: -ms-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
+
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.23, rgb(214,214,214)),
+	color-stop(0.81, rgb(240,240,240)));
+	
+	padding:5px;
+}
+
+#progressBar {
+	height:30px;
+	width:100%;
+	margin-bottom:10px;
+	margin-top:5px;	
+}
+
+#progressBar span {
+	width: 256px;
+	float:left;
+	text-align:center;
+	font-family: Tahoma;
+	text-transform: uppercase;
+}
+
+.inactive {
+	background: Red;
+	opacity:0.4;
+}
+
+.active {
+	background: Orange;
+	font-weight:bold;
+}
+
+.done {
+	background: Green;
+	opacity:0.6;
+}
