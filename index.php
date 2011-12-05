@@ -13,21 +13,27 @@
 	<script type="text/javascript" charset="utf-8">
 	
 	var timeStore = {
-	    h: $('#timmar'),
-	    m: $('#minuter'),
-	    price: $('#betala'),
+        h:     undefined,
+        m:     undefined,
+        price: undefined,
 	    getPrice: function() {
 	        return "Tim " + this.h.val() + " Min " + this.m.val();
 	    },
+        updatePrice: function() {
+            console.log(this);
+            timeStore.price.val(timeStore.getPrice());
+        },
 	    init: function() {
-	        var timeStore   = this;
-	        var updatePrice = function(ev) { timeStore.price.val(timeStore.getPrice()); }
-	        this.h.change(updatePrice);
-	        this.m.change(updatePrice);
+            this.h     = $('#timmar');
+            this.m     = $('#minuter');
+            this.price =  $('#betala');
+	        this.h.change(this.updatePrice);
+	        this.m.change(this.updatePrice);
 	    }
 	};
+
+	$(function() { timeStore.init(); });
 	
-	$(timeStore.init);
 	</script>
 	
 </head>
@@ -46,7 +52,7 @@
 
 			<div class="buttonCont">
 
-				<a href="#pay" class="button" data-role="button">Betala</a>
+				<a href="#pay" class="button" background-image: data-role="button">Betala</a>
 				<a href="#map" class="button" data-role="button">Parkering</a>
 				<span class="button">Se lediga cyklar i närheten</span>
 				<span class="button">Se närliggande kollektivtrafik</span>
