@@ -52,11 +52,10 @@
 
 			<div class="buttonCont">
 
-				<a href="#pay" class="button" background-image: data-role="button">Betala</a>
-				<a href="#map" class="button" data-role="button">Parkering</a>
-				<span class="button">Se lediga cyklar i närheten</span>
-				<span class="button">Se närliggande kollektivtrafik</span>
-
+				<a href="#pay" class="button" style="background-image:url('images/payTicket.png'); repeat:none;" data-role="button">Betala parkering</a>
+				<a href="#map" class="button" style="background-image:url('images/mapsIcon.png'); repeat:none;" data-role="button">Andra parkeringar i närheten</a>
+				<a href="#cycles" class="button" style="background-image:url('images/freeBikes.png'); repeat:none;" data-role="button">Lediga hyrcyklar i närheten</a>
+				<a href="#publicTrans" class="button" style="background-image:url('images/publicTransport.png'); repeat:none;" data-role="button">Kollektivtrafik i närheten</a>
 			</div>
 
 		</div>
