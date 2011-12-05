@@ -11,10 +11,10 @@
 	
 <div data-role="fieldcontain" >
 
-	<label for="slider">Timmar: </label>
+	<label for="timmar">Timmar: </label>
 	<input type="range" name="timmar" id="timmar" value="0" min="0" max="23"  />
 	<br />
-	<label for="slider">Minuter: </label>
+	<label for="minuter">Minuter: </label>
 	<input type="range" name="minuter" id="minuter" value="0" min="0" max="60"  />
 	<br />
 	<br />
