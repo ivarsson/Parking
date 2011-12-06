@@ -9,10 +9,21 @@ h1 {
 	margin-left:20%;
 }
 
+#pay input {
+	font-size:30px;
+	background:transparent;
+	border:none;
+}
+
+#pay label {
+	font-size:30px;
+	background:transparent;
+	border:none;
+}
+
 .button {
 	height: 200px;
 	width: 350px;
-	background:#ffffff;
 	float:left;
 	margin: 20px;
 	border-radius:15px;
