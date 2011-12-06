@@ -67,7 +67,7 @@ h1 {
 	height:30px;
 	width:100%;
 	margin-bottom:10px;
-	margin-top:5px;	
+	text-shadow: none;
 }
 
 #progressBar span {
@@ -80,7 +80,7 @@ h1 {
 
 .inactive {
 	background: Red;
-	opacity:0.4;
+	opacity:0.6;
 }
 
 .active {
