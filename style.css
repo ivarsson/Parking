@@ -10,15 +10,29 @@ h1 {
 }
 
 #pay input {
-	font-size:30px;
+	font-size:50px;
 	background:transparent;
 	border:none;
 }
 
 #pay label {
-	font-size:30px;
+	font-size:50px;
 	background:transparent;
 	border:none;
+}
+
+#hoursMinTable {
+	width:950px;
+	margin-left: 10%;
+}
+
+#hoursMinTable tr {
+	margin-top:100px;
+	height:100px;
+}
+
+.headerTd {
+	width:200px;
 }
 
 .button {
@@ -28,20 +42,7 @@ h1 {
 	margin: 20px;
 	border-radius:15px;
 	border: 1px solid black;
-	
-	background-image: linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
-	background-image: -o-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
-	background-image: -moz-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
-	background-image: -webkit-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
-	background-image: -ms-linear-gradient(bottom, rgb(214,214,214) 23%, rgb(240,240,240) 81%);
-
-	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.23, rgb(214,214,214)),
-	color-stop(0.81, rgb(240,240,240)));
-	
+	background: #ffffff;
 	padding:5px;
 }
 

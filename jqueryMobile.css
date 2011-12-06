@@ -1107,11 +1107,11 @@ a.ui-link-inherit {
 	-webkit-box-shadow: 0px 1px 0 			rgba(255,255,255,.3);
 	box-shadow: 0px 1px 0 					rgba(255,255,255,.3);
 }
-.ui-shadow-inset {
+Q/*.ui-shadow-inset {
 	-moz-box-shadow: inset 0px 1px 4px 		rgba(0,0,0,.2);
 	-webkit-box-shadow: inset 0px 1px 4px 	rgba(0,0,0,.2);
 	box-shadow: inset 0px 1px 4px 			rgba(0,0,0,.2);
-}
+}*/
 .ui-icon-shadow {
 	-moz-box-shadow: 0px 1px 0 				rgba(255,255,255,.4);
 	-webkit-box-shadow: 0px 1px 0 			rgba(255,255,255,.4);
@@ -1749,7 +1749,7 @@ label.ui-select { font-size: 16px; line-height: 1.4;  font-weight: normal; margi
 
 /* when no placeholder is defined in a multiple select, the header height doesn't even extend past the close button.  this shim's content in there */
 .ui-selectmenu .ui-header h1:after { content: '.'; visibility: hidden; }label.ui-input-text { font-size: 16px; line-height: 1.4; display: block; font-weight: normal; margin: 0 0 .3em; }
-input.ui-input-text, textarea.ui-input-text { background-image: none; padding: .4em; line-height: 1.4; font-size: 16px; display: block; width: 97%; }
+input.ui-input-text, textarea.ui-input-text { background-image: none; font-size: 16px; display: block; width: 100%; }
 input.ui-input-text { -webkit-appearance: none; }
 textarea.ui-input-text { height: 50px; -webkit-transition: height 200ms linear; -moz-transition: height 200ms linear; -o-transition: height 200ms linear; transition: height 200ms linear; }
 .ui-input-search { padding: 0 30px; background-image: none; position: relative; }
@@ -1821,15 +1821,15 @@ ol.ui-listview .ui-li-jsnumbering:before { content: "" !important; } /* to avoid
     .ui-li .ui-btn-text { overflow:  visible; }
 }label.ui-slider { font-size: 16px; line-height: 1.4;  font-weight: normal; margin: 0 0 .3em; display: block; }
 input.ui-slider-input,
-.ui-field-contain input.ui-slider-input { display: inline-block; width: 50px; }
+.ui-field-contain input.ui-slider-input {width: 90px; padding:none; background:transparent; }
 select.ui-slider-switch { display: none; }
-div.ui-slider { position: relative; display: inline-block; overflow: visible; height: 15px; padding: 0; margin: 0 2% 0 20px; top: 4px; width: 60%; }
+div.ui-slider { position: relative; display: inline-block; overflow: visible; height: 30px; padding: 0; margin: 0 2% 0 20px; top: 4px; width: 60%; }
 div.ui-slider-switch { width: 99.8%; }
-a.ui-slider-handle { position: absolute; z-index: 10;  top: 50%; width: 28px; height: 28px; margin-top: -15px; margin-left: -15px; }
+a.ui-slider-handle { position: absolute; z-index: 10;  top: 50%; width: 54px; height: 54px; margin-top: -28px; margin-left: -10px; }
 a.ui-slider-handle .ui-btn-inner { padding-left: 0; padding-right: 0; }
 @media all and (min-width: 480px){
 	.ui-field-contain label.ui-slider { vertical-align: top;  display: inline-block;  width: 20%;  margin: 0 2% 0 0; }
-	.ui-field-contain div.ui-slider { width: 43%; }
+	.ui-field-contain div.ui-slider { width: 80%;}
 }	
 
 div.ui-slider-switch { height: 32px;  overflow: hidden; margin-left: 0; }
