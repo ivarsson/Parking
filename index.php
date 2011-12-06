@@ -74,6 +74,11 @@
 	<div data-role="page" id="pay">
 		<?php include 'pay.php'; ?>
 	</div>
+	
+	<!--Ticket page-->
+	<div data-role="page" id="ticket">
+		<?php include 'ticket.php'; ?>
+	</div>
 
 </body>
 

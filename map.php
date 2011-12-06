@@ -7,5 +7,5 @@
 </div><!-- /content -->
 
 <div data-role="footer" data-theme="a">
-	<p><a href="#start" data-rel="back" data-role="button" data-inline="true" data-icon="back">Tillbaka</a></p>
+	<p><a href="#start" data-role="button" data-inline="true" data-icon="back">Tillbaka</a></p>
 </div>

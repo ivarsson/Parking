@@ -26,8 +26,8 @@
 
 <div data-role="footer" data-theme="a">
 	<p>
-		<a class="back" href="#start" data-rel="back" data-role="button" data-inline="true" data-icon="back">Tillbaka</a>
-		<a class="forward" href="#start" data-rel="forward" data-role="button" data-inline="true" data-icon="forward">Nästa</a>
+		<a class="back" href="#start" data-role="button" data-inline="true" data-icon="back">Tillbaka</a>
+		<a class="forward" href="#ticket" onClick="window.location.reload()" data-rel="forward" data-role="button" data-inline="true" data-icon="forward">Nästa</a>
 	</p>
 </div>
 
