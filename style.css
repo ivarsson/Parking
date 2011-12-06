@@ -60,9 +60,27 @@ h1 {
 	padding:5px;
 }
 
-#main {
-	border:1px solid black;
+.mobileTicket {
+	height: 350px;
+	width: 350px;
+	float:left;
+	margin: 20px;
+	border-radius:15px;
+	border: 1px solid black;
+	background: #ffffff;
+	padding:5px;
+}
+
+.mobileTicket input {
+	width:330px;
+	height:45px;
+	font-size:40px;
+	padding:5px;
 	margin: 0 auto;
+}
+
+#main {
+	margin-left:10%;
 	text-align:center;
 	
 }

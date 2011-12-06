@@ -1,5 +1,5 @@
 <div data-role="header" data-theme="a">
-	<h1>Välj biljett typ</h1>
+	<h1>Välj biljett-typ</h1>
 </div>
 
 <div id="progressBar">
@@ -9,16 +9,17 @@
 	<span class="inactive">4. Bekräfta</span>
 </div>
 
+	<div id="main">
 
-	<a href="#" id="paper" class="button" data-role="button">Pappersbiljett</a>
+	<a href="#" id="paper" class="mobileTicket" data-role="button">Pappersbiljett <br/><br/><br/> Tryck för att välja</a>
 	
 	<div id="mobileButton">
-		<a href="#" id="mobile" class="button" data-role="button">SMS-biljett</a>
-		<div id="smsTicket" class="button" style="display:none;">
+		<a href="#" id="mobile" class="mobileTicket" data-role="button">SMS-biljett</a>
+		<div id="smsTicket" class="mobileTicket" style="display:none;">
 			<form action="" method="POST">
-			<input type="text" name="regnr" id="regnr" placeholder="Registreringsnummer" />
+			<input type="text" name="regnr" id="regnr" placeholder="Reg.nummer" />
 			<br />
-			<input type="text" name="telnr" id="telnr" placeholder="Mobiltelefonnummer" />
+			<input type="text" name="telnr" id="telnr" placeholder="Mobilnummer" />
 			<br />
 			<input type="submit" name="cancel" value="Ångra">
 			<input type="submit" name="submit" value="Nästa" />
@@ -27,15 +28,15 @@
 	</div>
 
 
-<div id="smsTicket" style="display:none;">
-	<label for="regnr">Registreringsnummer: </label>
-	<input type="text" name="regnr" id="regnr" />
-	<br />
-	<label for="telnr">Mobilnummer: </label>
-	<input type="text" name="telnr" id="telnr" />
+	<div id="smsTicket" style="display:none;">
+		<label for="regnr">Reg.nummer: </label>
+		<input type="text" name="regnr" id="regnr" />
+		<br />
+		<label for="telnr">Mobilnummer: </label>
+		<input type="text" name="telnr" id="telnr" />
+	</div>
+
 </div>
-
-
 
 <div data-role="footer" data-theme="a">
 	<p>
