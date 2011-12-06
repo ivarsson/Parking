@@ -12,8 +12,8 @@
 	<div id="main">
 		<h1>Tryck på det biljettalternativ du önskar</h1>
 
-	<a href="#pay" class="button" style="background-image:url('images/payTicket.png'); repeat:none;" onClick="window.location.reload()" data-role="button">Pappersbiljett</a>
-		<a href="#map" class="button" style="background-image:url('images/mapsIcon.png'); repeat:none;" onClick="window.location.reload()" data-role="button">SMS-biljett</a>
+	<a href="#confirmPaper" class="button" style="background-image:url('images/paperTicket.png'); repeat:none;" onClick="window.location.reload()" data-role="button">Pappersbiljett</a>
+		<a href="#confirmMobile" class="button" style="background-image:url('images/smsTicket.png'); repeat:none;" onClick="window.location.reload()" data-role="button">SMS-biljett</a>
 
 </div>
 
