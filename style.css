@@ -35,6 +35,18 @@ h1 {
 	width:200px;
 }
 
+#totalSum {
+	margin-left:10%;
+}
+
+#totalSum input {
+	width:90px;
+}
+
+#totalSum span {
+	font-size: 50px;
+}
+
 .button {
 	height: 200px;
 	width: 350px;

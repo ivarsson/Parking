@@ -22,11 +22,14 @@
 		<td><label for="minuter">Minuter: </label></td>
 		<td><input type="range" name="minuter" id="minuter" value="0" min="0" max="60"  /></td>
 	</tr>
-	<tr>
-		<td><label for="slider">Totalsumma: </label></td>
-		<td><input type="text" id="betala" name="betala" />SEK</td>
-	</tr>
 	</table>
+	
+	<div id="totalSum">
+	<label for="slider">Totalsumma: </label>
+	<input type="text" id="betala" name="betala" value="0"/>
+	<span>SEK</span>	
+	</div>
+	
 </div>
 
 
