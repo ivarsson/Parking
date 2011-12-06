@@ -9,11 +9,13 @@
 	<span class="inactive">4. Bekräfta</span>
 </div>
 
-<div id="">
-	<a href="#pay" class="button" style="background-image:url('images/payTicket.png'); repeat:none;" onClick="window.location.reload()" data-role="button">Betala parkering</a>
-	<a href="#map" class="button" style="background-image:url('images/mapsIcon.png'); repeat:none;" onClick="window.location.reload()" data-role="button">Andra parkeringar i närheten</a>
+<div>
+	<a href="#" id="paper" class="button" data-role="button">Pappersbiljett</a>
+	<a href="#" id="mobile" class="button" data-role="button">SMS-biljett</a>
 </div>
 
+<div id="smsTicket">
+</div>
 
 
 

@@ -33,7 +33,17 @@
 	};
 
 	$(function() { timeStore.init(); });
+
 	
+	$(document).ready(function() {
+		
+		$("#mobile").click(function() {
+			$("#mobile").hide();
+			$("#paper").hide();
+	  		$("#smsTicket").load("smsForm.php");
+		});
+	
+	});
 	</script>
 	
 </head>
