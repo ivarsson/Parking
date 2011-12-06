@@ -38,9 +38,10 @@
 	$(document).ready(function() {
 		
 		$("#mobile").click(function() {
-			$("#mobile").hide();
-			$("#paper").hide();
-	  		$("#smsTicket").load("smsForm.php");
+			$("#mobile").hide(1000, function() {
+				$("#smsTicket").show(1000);
+			});
+
 		});
 	
 	});
