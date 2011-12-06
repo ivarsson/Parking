@@ -10,14 +10,16 @@
 </div>
 
 	<div id="main">
+		<h1>Tryck på det biljettalternativ du önskar</h1>
 
-
+	<a href="#pay" class="button" style="background-image:url('images/payTicket.png'); repeat:none;" onClick="window.location.reload()" data-role="button">Pappersbiljett</a>
+		<a href="#map" class="button" style="background-image:url('images/mapsIcon.png'); repeat:none;" onClick="window.location.reload()" data-role="button">SMS-biljett</a>
 
 </div>
 
 <div data-role="footer" data-theme="a">
 	<p>
 		<a class="back" onClick="window.location.reload()" href="#pay" data-role="button" data-inline="true" data-icon="back">Tillbaka</a>
-		<a class="forward"  onClick="window.location.reload()" href="#start" data-role="button" data-inline="true" data-icon="forward">Nästa</a>
+
 	</p>
 </div>
