@@ -1,0 +1,13 @@
+{
+	"BundleType": "Application",
+	"BundleIdentifier": "musicfromspace",
+	"AppIcon": {
+		"36x18": "musicfromspace.png"
+	},
+	"AppName": {
+		"en": "Music From Space"
+	},
+	"SupportedLanguages": [
+		"en"
+	]
+}
